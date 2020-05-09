@@ -1,8 +1,6 @@
 # added by gitignore-cli
 
 .idea
-stockdata
-model
 log
 .vscode/
 *.pkl
