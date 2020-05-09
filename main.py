@@ -26,19 +26,21 @@ def find_file(path, name):
                 return os.path.join(root, fname)
 
 
-def test_a_stock_trade_US(stock_code):
+def test_a_stock_trade_US(stock_code, counter):
     stock_file_train = find_file('./stockdata/train', str(stock_code))
 
-    daily_profits, buy_hold_profit = stock_trade_US(stock_file_train)
-    fig, ax = plt.subplots()
-    ax.plot(daily_profits, '-o', label='AI QQQ', marker='o', ms=10, alpha=0.7, mfc='orange')
-    ax.plot(buy_hold_profit, '-o', label='B&H QQQ', marker='o', ms=10, alpha=0.7, mfc='blue')
-    ax.grid()
-    plt.xlabel('step')
-    plt.ylabel('profit')
-    ax.legend(prop=font)
-    # plt.show()
-    plt.savefig(f'./img/{stock_code}.png')
+    daily_profits, buy_hold_profit, good_model, model = stock_trade_US(stock_file_train)
+    if good_model:
+        model.save('./model/model_' + str(counter) + '.dat')
+        fig, ax = plt.subplots()
+        ax.plot(daily_profits, '-o', label='AI QQQ', marker='o', ms=10, alpha=0.7, mfc='orange')
+        ax.plot(buy_hold_profit, '-o', label='B&H QQQ', marker='o', ms=10, alpha=0.7, mfc='blue')
+        ax.grid()
+        plt.xlabel('step')
+        plt.ylabel('profit')
+        ax.legend(prop=font)
+        # plt.show()
+        plt.savefig(f'./img/{stock_code}_{counter}.png')
 
 
 def multi_stock_trade():
@@ -94,19 +96,26 @@ def stock_trade_US(stock_file_train):
             buy_hold_commission = no_of_shares * df_test.iloc[0]['Close'] * 0.001
             print('Buy ' + str(no_of_shares) + ' shares and hold')
         else:
-            but_hold_profit_per_step = no_of_shares * (
+            buy_hold_profit_per_step = no_of_shares * (
                     df_test.iloc[i]['Close'] - df_test.iloc[0]['Close']) - buy_hold_commission
-            buy_hold_profit.append(but_hold_profit_per_step)
+            buy_hold_profit.append(buy_hold_profit_per_step)
             print('Buy and Hold: ' + '*' * 40)
             print('No of shares: ' + str(no_of_shares) + ' average cost per share ' + str(df_test.iloc[0]['Close']))
-            print('profit is ' + str(but_hold_profit_per_step))
+            print('profit is ' + str(buy_hold_profit_per_step))
         if done:
             break
-    return day_profits, buy_hold_profit
+
+    good_model = False
+    if day_profits[-1] > buy_hold_profit[-1] * 1.1:
+        good_model = True
+
+    return day_profits, buy_hold_profit, good_model, model
 
 
 if __name__ == '__main__':
     # multi_stock_trade()
-    test_a_stock_trade_US('QQQ')
+    for i in range(1, 10):
+        print(f'Iteration {i} ')
+        test_a_stock_trade_US('QQQ', i)
     # ret = find_file('./stockdata/train', '600036')
     # print(ret)
