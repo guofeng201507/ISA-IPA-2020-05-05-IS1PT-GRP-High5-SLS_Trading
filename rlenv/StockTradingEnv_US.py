@@ -84,7 +84,7 @@ class StockTradingEnv_US(gym.Env):
             shares_sold = int(self.shares_held * amount)
             if shares_sold > 0:
                 commission_cost = max(MIN_COMMISSION,
-                                  shares_sold * current_price * 0.001)  # Assume 0.1 % trade commission fee. min 1 dollar
+                                      shares_sold * current_price * 0.001)  # Assume 0.1 % trade commission fee. min 1 dollar
             self.balance += shares_sold * current_price - commission_cost
 
             self.commission_cost = commission_cost
@@ -93,7 +93,6 @@ class StockTradingEnv_US(gym.Env):
             self.shares_bought = 0
             self.shares_sold = shares_sold
             self.total_sales_value += shares_sold * current_price
-
 
         self.net_worth = self.balance + self.shares_held * current_price
 
@@ -118,6 +117,8 @@ class StockTradingEnv_US(gym.Env):
 
         # profits
         reward = self.net_worth - INITIAL_ACCOUNT_BALANCE
+
+        # reward = self.net_worth - 248 * self.df.loc[self.current_step, "Close"] #compare with buy & hold
         if reward > 0:
             reward = 1
         elif reward == 0:

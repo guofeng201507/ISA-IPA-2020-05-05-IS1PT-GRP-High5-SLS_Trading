@@ -21,7 +21,7 @@ def run_PPO2_model(test_data_file, model_path):
     no_of_shares = 0
     buy_hold_commission = 0
     for i in range(len(df_test) - 1):
-        action, _states = model.predict(obs)
+        action, _states = model.predict(obs, deterministic=True)
         obs, rewards, done, info = env_test.step(action)
         profit = env_test.render()
         day_profits.append(profit)
@@ -39,4 +39,4 @@ def run_PPO2_model(test_data_file, model_path):
             print('profit is ' + str(buy_hold_profit_per_step))
 
 
-run_PPO2_model('./stockdata/test/QQQ_New_test.csv', './model/model_1.dat')
+run_PPO2_model('./stockdata/test/QQQ_New_test.csv', './model/model_QQQ_100000_6.dat')

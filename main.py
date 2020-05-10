@@ -29,18 +29,18 @@ def find_file(path, name):
 def test_a_stock_trade_US(stock_code, counter):
     stock_file_train = find_file('./stockdata/train', str(stock_code))
 
-    daily_profits, buy_hold_profit, good_model, model = stock_trade_US(stock_file_train)
+    daily_profits, buy_hold_profit, good_model, model, total_steps = stock_trade_US(stock_file_train)
     if good_model:
-        model.save('./model/model_' + str(counter) + '.dat')
+        model.save(f'./model/model_{stock_code}_{total_steps}_{counter}.dat')
         fig, ax = plt.subplots()
-        ax.plot(daily_profits, '-o', label='AI QQQ', marker='o', ms=10, alpha=0.7, mfc='orange')
-        ax.plot(buy_hold_profit, '-o', label='B&H QQQ', marker='o', ms=10, alpha=0.7, mfc='blue')
+        ax.plot(daily_profits, '-o', label='AI QQQ', marker='o', ms=2, alpha=0.7, mfc='orange')
+        ax.plot(buy_hold_profit, '-o', label='B&H QQQ', marker='o', ms=2, alpha=0.7, mfc='blue')
         ax.grid()
         plt.xlabel('step')
         plt.ylabel('profit')
         ax.legend(prop=font)
         # plt.show()
-        plt.savefig(f'./img/{stock_code}_{counter}.png')
+        plt.savefig(f'./img/{stock_code}_{total_steps}_{counter}.png')
 
 
 def multi_stock_trade():
@@ -69,7 +69,8 @@ def stock_trade_US(stock_file_train):
     # The algorithms require a vectorized environment to run
     env_train = DummyVecEnv([lambda: StockTradingEnv_US(df_train)])
 
-    model = PPO2('MlpPolicy', env_train, verbose=0, tensorboard_log='./log').learn(total_timesteps=int(1e4))
+    total_timesteps = int(1e5)
+    model = PPO2('MlpPolicy', env_train, verbose=0, tensorboard_log='./log').learn(total_timesteps=total_timesteps)
 
     # Random Agent, after training
     # mean_reward, std_reward = evaluate_policy(model, env_train, n_eval_episodes=100)
@@ -85,23 +86,31 @@ def stock_trade_US(stock_file_train):
     obs = env_test.reset()
     no_of_shares = 0
     buy_hold_commission = 0
-    for i in range(len(df_test) - 1):
+    for n in range(len(df_test) - 1):
         action, _states = model.predict(obs)
+
+        # let agent start with a buy all
+        # if n == 0:
+        #     action[0][0] = 0
+        #     action[0][1] = 1
+
         obs, rewards, done, info = env_test.step(action)
         profit = env_test.render()
         day_profits.append(profit)
-        if i == 0:
+
+        if n == 0:
             buy_hold_profit.append(0)
             no_of_shares = INITIAL_ACCOUNT_BALANCE // df_test.iloc[0]['Close']
             buy_hold_commission = no_of_shares * df_test.iloc[0]['Close'] * 0.001
             print('Buy ' + str(no_of_shares) + ' shares and hold')
         else:
             buy_hold_profit_per_step = no_of_shares * (
-                    df_test.iloc[i]['Close'] - df_test.iloc[0]['Close']) - buy_hold_commission
+                    df_test.iloc[n]['Close'] - df_test.iloc[0]['Close']) - buy_hold_commission
             buy_hold_profit.append(buy_hold_profit_per_step)
             print('Buy and Hold: ' + '*' * 40)
             print('No of shares: ' + str(no_of_shares) + ' average cost per share ' + str(df_test.iloc[0]['Close']))
             print('profit is ' + str(buy_hold_profit_per_step))
+
         if done:
             break
 
@@ -109,13 +118,14 @@ def stock_trade_US(stock_file_train):
     if day_profits[-1] > buy_hold_profit[-1] * 1.1:
         good_model = True
 
-    return day_profits, buy_hold_profit, good_model, model
+    return day_profits, buy_hold_profit, good_model, model, total_timesteps
 
 
 if __name__ == '__main__':
     # multi_stock_trade()
     for i in range(1, 10):
         print(f'Iteration {i} ')
+
         test_a_stock_trade_US('QQQ', i)
     # ret = find_file('./stockdata/train', '600036')
     # print(ret)
