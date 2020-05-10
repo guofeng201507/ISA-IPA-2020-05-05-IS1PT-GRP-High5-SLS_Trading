@@ -29,7 +29,10 @@ def find_file(path, name):
 def test_a_stock_trade_US(stock_code, counter):
     stock_file_train = find_file('./stockdata/train', str(stock_code))
 
-    daily_profits, buy_hold_profit, good_model, model, total_steps = stock_trade_US(stock_file_train)
+    NO_OF_TEST_TRADING_DAYS = 22
+
+    daily_profits, buy_hold_profit, good_model, model, total_steps = stock_trade_US(stock_file_train,
+                                                                                    NO_OF_TEST_TRADING_DAYS)
     if good_model:
         model.save(f'./model/model_{stock_code}_{total_steps}_{counter}.dat')
         fig, ax = plt.subplots()
@@ -40,7 +43,7 @@ def test_a_stock_trade_US(stock_code, counter):
         plt.ylabel('profit')
         ax.legend(prop=font)
         # plt.show()
-        plt.savefig(f'./img/{stock_code}_{total_steps}_{counter}.png')
+        plt.savefig(f'./img/{stock_code}_{total_steps}_days_{NO_OF_TEST_TRADING_DAYS}.png')
 
 
 def multi_stock_trade():
@@ -62,21 +65,26 @@ def multi_stock_trade():
         pickle.dump(group_result, f)
 
 
-def stock_trade_US(stock_file_train):
+def stock_trade_US(stock_file_train, no_of_test_trading_days):
     df_train = pd.read_csv(stock_file_train)
     # df_train = df_train.sort_values('date')
 
     # The algorithms require a vectorized environment to run
     env_train = DummyVecEnv([lambda: StockTradingEnv_US(df_train)])
 
-    total_timesteps = int(1e5)
-    model = PPO2('MlpPolicy', env_train, verbose=0, tensorboard_log='./log').learn(total_timesteps=total_timesteps)
+    total_timesteps = int(5e4)
+    model = PPO2('MlpPolicy', env_train, verbose=0, tensorboard_log='./log', seed=12345).learn(
+        total_timesteps=total_timesteps)
 
     # Random Agent, after training
     # mean_reward, std_reward = evaluate_policy(model, env_train, n_eval_episodes=100)
     # print(f"after training, mean_reward:{mean_reward:.2f} +/- {std_reward:.2f}")
 
     # -----------------Test Model --------------------------------------
+
+    import sys
+    sys.stdout = open(f'./output/output_QQQ_{total_timesteps}_days_{no_of_test_trading_days}.txt', 'wt')
+
     day_profits = []
     buy_hold_profit = []
 
@@ -87,6 +95,9 @@ def stock_trade_US(stock_file_train):
     no_of_shares = 0
     buy_hold_commission = 0
     for n in range(len(df_test) - 1):
+        if n > no_of_test_trading_days:
+            break
+
         action, _states = model.predict(obs)
 
         # let agent start with a buy all
@@ -115,7 +126,7 @@ def stock_trade_US(stock_file_train):
             break
 
     good_model = False
-    if day_profits[-1] > buy_hold_profit[-1] * 1.1:
+    if day_profits[-1] > buy_hold_profit[-1]:
         good_model = True
 
     return day_profits, buy_hold_profit, good_model, model, total_timesteps
@@ -123,9 +134,10 @@ def stock_trade_US(stock_file_train):
 
 if __name__ == '__main__':
     # multi_stock_trade()
-    for i in range(1, 10):
-        print(f'Iteration {i} ')
+    test_a_stock_trade_US('QQQ', 0)
 
-        test_a_stock_trade_US('QQQ', i)
+    # for i in range(1, 10):
+    #     print(f'Iteration {i} ')
+    #     test_a_stock_trade_US('QQQ', i)
     # ret = find_file('./stockdata/train', '600036')
     # print(ret)

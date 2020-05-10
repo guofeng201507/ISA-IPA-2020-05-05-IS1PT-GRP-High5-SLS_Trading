@@ -39,4 +39,4 @@ def run_PPO2_model(test_data_file, model_path):
             print('profit is ' + str(buy_hold_profit_per_step))
 
 
-run_PPO2_model('./stockdata/test/QQQ_New_test.csv', './model/model_QQQ_100000_6.dat')
+run_PPO2_model('./stockdata/test/QQQ_New_test.csv', './model/model_1.dat')
