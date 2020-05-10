@@ -1,6 +1,7 @@
 import gym
 import numpy as np
 from gym import spaces
+from random import random
 
 MAX_ACCOUNT_BALANCE = 2147483647
 MAX_NUM_SHARES = 2147483647
@@ -54,7 +55,7 @@ class StockTradingEnv_US(gym.Env):
         # Set the current price to a random price within the time step
         # current_price = random.uniform(
         #     self.df.loc[self.current_step, "open"], self.df.loc[self.current_step, "close"])
-
+        # self.current_step = random.randint(0, len(self.df.loc[:, 'Open'].values) - 6)
         current_price = self.df.loc[self.current_step, "Close"]
 
         action_type = action[0]

@@ -29,21 +29,22 @@ def find_file(path, name):
 def test_a_stock_trade_US(stock_code, counter):
     stock_file_train = find_file('./stockdata/train', str(stock_code))
 
-    NO_OF_TEST_TRADING_DAYS = 22
+    NO_OF_TEST_TRADING_DAYS = 60
 
     daily_profits, buy_hold_profit, good_model, model, total_steps = stock_trade_US(stock_file_train,
                                                                                     NO_OF_TEST_TRADING_DAYS)
     if good_model:
         model.save(f'./model/model_{stock_code}_{total_steps}_{counter}.dat')
-        fig, ax = plt.subplots()
-        ax.plot(daily_profits, '-o', label='AI QQQ', marker='o', ms=2, alpha=0.7, mfc='orange')
-        ax.plot(buy_hold_profit, '-o', label='B&H QQQ', marker='o', ms=2, alpha=0.7, mfc='blue')
-        ax.grid()
-        plt.xlabel('step')
-        plt.ylabel('profit')
-        ax.legend(prop=font)
-        # plt.show()
-        plt.savefig(f'./img/{stock_code}_{total_steps}_days_{NO_OF_TEST_TRADING_DAYS}.png')
+
+    fig, ax = plt.subplots()
+    ax.plot(daily_profits, '-o', label='AI QQQ', marker='o', ms=2, alpha=0.7, mfc='orange')
+    ax.plot(buy_hold_profit, '-o', label='B&H QQQ', marker='o', ms=2, alpha=0.7, mfc='blue')
+    ax.grid()
+    plt.xlabel('step')
+    plt.ylabel('profit')
+    ax.legend(prop=font)
+    # plt.show()
+    plt.savefig(f'./img/{stock_code}_{total_steps}_days_{NO_OF_TEST_TRADING_DAYS}_new.png')
 
 
 def multi_stock_trade():
@@ -73,6 +74,8 @@ def stock_trade_US(stock_file_train, no_of_test_trading_days):
     env_train = DummyVecEnv([lambda: StockTradingEnv_US(df_train)])
 
     total_timesteps = int(5e4)
+    # total_timesteps = int(1e5)
+
     model = PPO2('MlpPolicy', env_train, verbose=0, tensorboard_log='./log', seed=12345).learn(
         total_timesteps=total_timesteps)
 
