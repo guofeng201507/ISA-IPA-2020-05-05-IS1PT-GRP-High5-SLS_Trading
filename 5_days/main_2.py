@@ -10,7 +10,7 @@ from stable_baselines import PPO2, DQN
 
 from env.StockTradingEnvO import StockTradingEnv
 # from stable_baselines.deepq.policies import MlpPolicy #only for dqn
-# from env.StockAllTradingEnv import StockTradingEnv #only for dqn
+# from env.StockDQNTradingEnv import StockTradingEnv #only for dqn
 
 import pandas as pd
 import os
