@@ -29,7 +29,7 @@ def find_file(path, name):
 def test_a_stock_trade_US(stock_code, counter):
     stock_file_train = find_file('./stockdata/train', str(stock_code))
 
-    NO_OF_TEST_TRADING_DAYS = 60
+    NO_OF_TEST_TRADING_DAYS = 104
 
     daily_profits, buy_hold_profit, good_model, model, total_steps = stock_trade_US(stock_file_train,
                                                                                     NO_OF_TEST_TRADING_DAYS)
@@ -37,8 +37,8 @@ def test_a_stock_trade_US(stock_code, counter):
         model.save(f'./model/model_{stock_code}_{total_steps}_{counter}.dat')
 
     fig, ax = plt.subplots()
-    ax.plot(daily_profits, '-o', label='AI QQQ', marker='o', ms=2, alpha=0.7, mfc='orange')
-    ax.plot(buy_hold_profit, '-o', label='B&H QQQ', marker='o', ms=2, alpha=0.7, mfc='blue')
+    ax.plot(daily_profits, '-o', label='AI SPY', marker='o', ms=2, alpha=0.7, mfc='orange')
+    ax.plot(buy_hold_profit, '-o', label='B&H SPY', marker='o', ms=2, alpha=0.7, mfc='blue')
     ax.grid()
     plt.xlabel('step')
     plt.ylabel('profit')
@@ -86,12 +86,12 @@ def stock_trade_US(stock_file_train, no_of_test_trading_days):
     # -----------------Test Model --------------------------------------
 
     import sys
-    sys.stdout = open(f'./output/output_QQQ_{total_timesteps}_days_{no_of_test_trading_days}.txt', 'wt')
+    sys.stdout = open(f'./output/output_SPY_{total_timesteps}_days_{no_of_test_trading_days}.txt', 'wt')
 
     day_profits = []
     buy_hold_profit = []
 
-    df_test = pd.read_csv(stock_file_train.replace('train', 'test'))
+    df_test = pd.read_csv(stock_file_train.replace('train', 'test')).drop(['Adj Close'], axis=1)
 
     env_test = DummyVecEnv([lambda: StockTradingEnv_US(df_test)])
     obs = env_test.reset()
@@ -137,10 +137,10 @@ def stock_trade_US(stock_file_train, no_of_test_trading_days):
 
 if __name__ == '__main__':
     # multi_stock_trade()
-    test_a_stock_trade_US('QQQ', 0)
+    test_a_stock_trade_US('SPY', 0)
 
     # for i in range(1, 10):
     #     print(f'Iteration {i} ')
-    #     test_a_stock_trade_US('QQQ', i)
+    #     test_a_stock_trade_US('SPY', i)
     # ret = find_file('./stockdata/train', '600036')
     # print(ret)

@@ -1,0 +1,1623 @@
+------------------------------
+Step: 1
+Balance: 49248.460021
+Shares bought : 3
+Shares sold : 0
+Shares held: 3 
+Total commission cost: 1
+Avg cost for held shares: 250.51332633333337 (Total sales value: 0)
+Net worth: 49999.0 (Max net worth: 50000)
+Profit: -1.0
+Buy 199.0 shares and hold
+------------------------------
+Step: 2
+Balance: 113.16240259300685
+Shares bought : 201
+Shares sold : 0
+Shares held: 204 
+Total commission cost: 50.08621140699999
+Avg cost for held shares: 244.54332155591663 (Total sales value: 0)
+Net worth: 49932.00383059301 (Max net worth: 50000)
+Profit: -67.99616940699343
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is -1237.8130326070068
+------------------------------
+Step: 3
+Balance: 113.16240259300685
+Shares bought : 0
+Shares sold : 0
+Shares held: 204 
+Total commission cost: 50.08621140699999
+Avg cost for held shares: 244.54332155591663 (Total sales value: 0)
+Net worth: 51600.72219859301 (Max net worth: 51600.72219859301)
+Profit: 1600.7221985930082
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 390.00537539299853
+------------------------------
+Step: 4
+Balance: 113.16240259300685
+Shares bought : 0
+Shares sold : 0
+Shares held: 204 
+Total commission cost: 50.08621140699999
+Avg cost for held shares: 244.54332155591663 (Total sales value: 0)
+Net worth: 52006.68342259301 (Max net worth: 52006.68342259301)
+Profit: 2006.683422593007
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 786.0165693929916
+------------------------------
+Step: 5
+Balance: 35511.986626111015
+Shares bought : 0
+Shares sold : 138
+Shares held: 66 
+Total commission cost: 85.520469889
+Avg cost for held shares: 244.54332155591663 (Total sales value: 35434.258482000005)
+Net worth: 52458.805900111016 (Max net worth: 52458.805900111016)
+Profit: 2458.805900111016
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 1261.623385392997
+------------------------------
+Step: 6
+Balance: 26732.235612077016
+Shares bought : 34
+Shares sold : 0
+Shares held: 100 
+Total commission cost: 94.291449923
+Avg cost for held shares: 249.19610236724498 (Total sales value: 35434.258482000005)
+Net worth: 52529.23571207702 (Max net worth: 52529.23571207702)
+Profit: 2529.2357120770175
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 1500.4257733929887
+------------------------------
+Step: 7
+Balance: 52594.34811157701
+Shares bought : 0
+Shares sold : 100
+Shares held: 0 
+Total commission cost: 120.179450423
+Avg cost for held shares: 0 (Total sales value: 61322.258982)
+Net worth: 52594.34811157701 (Max net worth: 52594.34811157701)
+Profit: 2594.348111577012
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 1681.5165693929916
+------------------------------
+Step: 8
+Balance: 40669.354525071016
+Shares bought : 46
+Shares sold : 0
+Shares held: 46 
+Total commission cost: 132.09253092900002
+Avg cost for held shares: 259.238991011 (Total sales value: 61322.258982)
+Net worth: 52582.435031071014 (Max net worth: 52594.34811157701)
+Profit: 2582.4350310710142
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 1701.4177633929933
+------------------------------
+Step: 9
+Balance: 40669.354525071016
+Shares bought : 46
+Shares sold : 0
+Shares held: 46 
+Total commission cost: 132.09253092900002
+Avg cost for held shares: 259.238991011 (Total sales value: 61322.258982)
+Net worth: 52509.75424907102 (Max net worth: 52594.34811157701)
+Profit: 2509.7542490710184
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 1386.9943803929937
+------------------------------
+Step: 10
+Balance: 52633.478700795014
+Shares bought : 0
+Shares sold : 46
+Shares held: 0 
+Total commission cost: 144.06863120500003
+Avg cost for held shares: 0 (Total sales value: 73298.359258)
+Net worth: 52633.478700795014 (Max net worth: 52633.478700795014)
+Profit: 2633.4787007950144
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 1974.0467683929967
+------------------------------
+Step: 11
+Balance: 39832.670141256014
+Shares bought : 49
+Shares sold : 0
+Shares held: 49 
+Total commission cost: 156.85665174400003
+Avg cost for held shares: 261.24099101099995 (Total sales value: 73298.359258)
+Net worth: 52620.69068025601 (Max net worth: 52633.478700795014)
+Profit: 2620.6906802560115
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 2099.417763392993
+------------------------------
+Step: 12
+Balance: 86.00454161501693
+Shares bought : 151
+Shares sold : 0
+Shares held: 200 
+Total commission cost: 196.56361038500003
+Avg cost for held shares: 262.7373707959 (Total sales value: 73298.359258)
+Net worth: 52678.00274161502 (Max net worth: 52678.00274161502)
+Profit: 2678.0027416150187
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 2493.433783392996
+------------------------------
+Step: 13
+Balance: 86.00454161501693
+Shares bought : 0
+Shares sold : 0
+Shares held: 200 
+Total commission cost: 196.56361038500003
+Avg cost for held shares: 262.7373707959 (Total sales value: 73298.359258)
+Net worth: 53378.00274161502 (Max net worth: 53378.00274161502)
+Profit: 3378.0027416150187
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 3189.933783392996
+------------------------------
+Step: 14
+Balance: 86.00454161501693
+Shares bought : 0
+Shares sold : 0
+Shares held: 200 
+Total commission cost: 196.56361038500003
+Avg cost for held shares: 262.7373707959 (Total sales value: 73298.359258)
+Net worth: 52658.00154161501 (Max net worth: 53378.00274161502)
+Profit: 2658.0015416150127
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 2473.532589392994
+------------------------------
+Step: 15
+Balance: 86.00454161501693
+Shares bought : 0
+Shares sold : 0
+Shares held: 200 
+Total commission cost: 196.56361038500003
+Avg cost for held shares: 262.7373707959 (Total sales value: 73298.359258)
+Net worth: 52768.00534161502 (Max net worth: 53378.00274161502)
+Profit: 2768.0053416150186
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 2582.9863703929977
+------------------------------
+Step: 16
+Balance: 86.00454161501693
+Shares bought : 0
+Shares sold : 0
+Shares held: 200 
+Total commission cost: 196.56361038500003
+Avg cost for held shares: 262.7373707959 (Total sales value: 73298.359258)
+Net worth: 52796.00214161501 (Max net worth: 53378.00274161502)
+Profit: 2796.002141615012
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 2610.843186392992
+------------------------------
+Step: 17
+Balance: 86.00454161501693
+Shares bought : 0
+Shares sold : 0
+Shares held: 200 
+Total commission cost: 196.56361038500003
+Avg cost for held shares: 262.7373707959 (Total sales value: 73298.359258)
+Net worth: 53242.00434161502 (Max net worth: 53378.00274161502)
+Profit: 3242.004341615022
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 3054.615375393001
+------------------------------
+Step: 18
+Balance: 86.00454161501693
+Shares bought : 0
+Shares sold : 0
+Shares held: 200 
+Total commission cost: 196.56361038500003
+Avg cost for held shares: 262.7373707959 (Total sales value: 73298.359258)
+Net worth: 52838.006541615025 (Max net worth: 53378.00274161502)
+Profit: 2838.0065416150246
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 2652.6375643929996
+------------------------------
+Step: 19
+Balance: 86.00454161501693
+Shares bought : 0
+Shares sold : 0
+Shares held: 200 
+Total commission cost: 196.56361038500003
+Avg cost for held shares: 262.7373707959 (Total sales value: 73298.359258)
+Net worth: 52768.00534161502 (Max net worth: 53378.00274161502)
+Profit: 2768.0053416150186
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 2582.9863703929977
+------------------------------
+Step: 20
+Balance: 86.00454161501693
+Shares bought : 0
+Shares sold : 0
+Shares held: 200 
+Total commission cost: 196.56361038500003
+Avg cost for held shares: 262.7373707959 (Total sales value: 73298.359258)
+Net worth: 53602.00194161502 (Max net worth: 53602.00194161502)
+Profit: 3602.001941615017
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 3412.8129873929984
+------------------------------
+Step: 21
+Balance: 86.00454161501693
+Shares bought : 0
+Shares sold : 0
+Shares held: 200 
+Total commission cost: 196.56361038500003
+Avg cost for held shares: 262.7373707959 (Total sales value: 73298.359258)
+Net worth: 54072.00314161502 (Max net worth: 54072.00314161502)
+Profit: 4072.003141615023
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 3880.464181393
+------------------------------
+Step: 22
+Balance: 27064.99834181502
+Shares bought : 0
+Shares sold : 100
+Shares held: 100 
+Total commission cost: 223.56961018500004
+Avg cost for held shares: 262.7373707959 (Total sales value: 100304.359058)
+Net worth: 54070.99814181502 (Max net worth: 54072.00314161502)
+Profit: 4070.99814181502
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 3906.335176392997
+------------------------------
+Step: 23
+Balance: 27064.99834181502
+Shares bought : 0
+Shares sold : 0
+Shares held: 100 
+Total commission cost: 223.56961018500004
+Avg cost for held shares: 262.7373707959 (Total sales value: 100304.359058)
+Net worth: 54260.99744181502 (Max net worth: 54260.99744181502)
+Profit: 4260.997441815023
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 4284.433783392996
+------------------------------
+Step: 24
+Balance: 12029.477511485018
+Shares bought : 55
+Shares sold : 0
+Shares held: 155 
+Total commission cost: 238.59011051500005
+Avg cost for held shares: 266.5113413543226 (Total sales value: 100304.359058)
+Net worth: 54359.97844148502 (Max net worth: 54359.97844148502)
+Profit: 4359.978441485022
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 4511.2967683929965
+------------------------------
+Step: 25
+Balance: 12029.477511485018
+Shares bought : 0
+Shares sold : 0
+Shares held: 155 
+Total commission cost: 238.59011051500005
+Avg cost for held shares: 266.5113413543226 (Total sales value: 100304.359058)
+Net worth: 54304.175961485016 (Max net worth: 54359.97844148502)
+Profit: 4304.175961485016
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 4439.6535843929905
+------------------------------
+Step: 26
+Balance: 12029.477511485018
+Shares bought : 0
+Shares sold : 0
+Shares held: 155 
+Total commission cost: 238.59011051500005
+Avg cost for held shares: 266.5113413543226 (Total sales value: 100304.359058)
+Net worth: 53901.17983648502 (Max net worth: 54359.97844148502)
+Profit: 3901.1798364850183
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 3922.258559392996
+------------------------------
+Step: 27
+Balance: 2282.820555449018
+Shares bought : 36
+Shares sold : 0
+Shares held: 191 
+Total commission cost: 248.32703055100004
+Avg cost for held shares: 267.30845479558116 (Total sales value: 100304.359058)
+Net worth: 53942.590746449016 (Max net worth: 54359.97844148502)
+Profit: 3942.5907464490156
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 3987.925773392989
+------------------------------
+Step: 28
+Balance: 115.6956354890176
+Shares bought : 8
+Shares sold : 0
+Shares held: 199 
+Total commission cost: 250.49199051100004
+Avg cost for held shares: 267.4524612357588 (Total sales value: 100304.359058)
+Net worth: 53969.07464048902 (Max net worth: 54359.97844148502)
+Profit: 3969.0746404890233
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 4017.774579392999
+------------------------------
+Step: 29
+Balance: 115.6956354890176
+Shares bought : 0
+Shares sold : 0
+Shares held: 199 
+Total commission cost: 250.49199051100004
+Avg cost for held shares: 267.4524612357588 (Total sales value: 100304.359058)
+Net worth: 54661.59682948902 (Max net worth: 54661.59682948902)
+Profit: 4661.596829489019
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 4710.2967683929965
+------------------------------
+Step: 30
+Balance: 115.6956354890176
+Shares bought : 0
+Shares sold : 0
+Shares held: 199 
+Total commission cost: 250.49199051100004
+Avg cost for held shares: 267.4524612357588 (Total sales value: 100304.359058)
+Net worth: 54838.70364548902 (Max net worth: 54838.70364548902)
+Profit: 4838.7036454890185
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 4887.4035843929905
+------------------------------
+Step: 31
+Balance: 115.6956354890176
+Shares bought : 0
+Shares sold : 0
+Shares held: 199 
+Total commission cost: 250.49199051100004
+Avg cost for held shares: 267.4524612357588 (Total sales value: 100304.359058)
+Net worth: 54717.31663048902 (Max net worth: 54838.70364548902)
+Profit: 4717.316630489018
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 4766.016569392992
+------------------------------
+Step: 32
+Balance: 115.6956354890176
+Shares bought : 0
+Shares sold : 0
+Shares held: 199 
+Total commission cost: 250.49199051100004
+Avg cost for held shares: 267.4524612357588 (Total sales value: 100304.359058)
+Net worth: 55312.32464048902 (Max net worth: 55312.32464048902)
+Profit: 5312.324640489023
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 5361.024579392999
+------------------------------
+Step: 33
+Balance: 115.6956354890176
+Shares bought : 0
+Shares sold : 0
+Shares held: 199 
+Total commission cost: 250.49199051100004
+Avg cost for held shares: 267.4524612357588 (Total sales value: 100304.359058)
+Net worth: 55407.84682948902 (Max net worth: 55407.84682948902)
+Profit: 5407.846829489019
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 5456.5467683929965
+------------------------------
+Step: 34
+Balance: 54073.22487071302
+Shares bought : 0
+Shares sold : 194
+Shares held: 5 
+Total commission cost: 304.50353128700004
+Avg cost for held shares: 267.4524612357588 (Total sales value: 154315.899834)
+Net worth: 55465.27489071302 (Max net worth: 55465.27489071302)
+Profit: 5465.274890713023
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 5567.986370392999
+------------------------------
+Step: 35
+Balance: 37966.77375595902
+Shares bought : 58
+Shares sold : 0
+Shares held: 63 
+Total commission cost: 320.59389204100006
+Avg cost for held shares: 276.88434001480624 (Total sales value: 154315.899834)
+Net worth: 55444.23457495902 (Max net worth: 55465.27489071302)
+Profit: 5444.234574959017
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 5370.978161392992
+------------------------------
+Step: 36
+Balance: 14495.564734699019
+Shares bought : 84
+Shares sold : 0
+Shares held: 147 
+Total commission cost: 344.04165330100005
+Avg cost for held shares: 278.3328057292027 (Total sales value: 154315.899834)
+Net worth: 55529.146939699014 (Max net worth: 55529.146939699014)
+Profit: 5529.146939699014
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 5713.258559392996
+------------------------------
+Step: 37
+Balance: 23710.50021206202
+Shares bought : 0
+Shares sold : 33
+Shares held: 114 
+Total commission cost: 353.26581293800007
+Avg cost for held shares: 278.3328057292027 (Total sales value: 163540.05947100002)
+Net worth: 55575.778958062016 (Max net worth: 55575.778958062016)
+Profit: 5575.778958062016
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 5788.873385392997
+------------------------------
+Step: 38
+Balance: 224.15674347402455
+Shares bought : 84
+Shares sold : 0
+Shares held: 198 
+Total commission cost: 376.7286935260001
+Avg cost for held shares: 278.87011778645 (Total sales value: 163540.05947100002)
+Net worth: 55529.51812947402 (Max net worth: 55575.778958062016)
+Profit: 5529.518129474018
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 5749.076967392991
+------------------------------
+Step: 39
+Balance: 224.15674347402455
+Shares bought : 0
+Shares sold : 0
+Shares held: 198 
+Total commission cost: 376.7286935260001
+Avg cost for held shares: 278.87011778645 (Total sales value: 163540.05947100002)
+Net worth: 55505.75911947402 (Max net worth: 55575.778958062016)
+Profit: 5505.7591194740235
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 5725.197962392998
+------------------------------
+Step: 40
+Balance: 224.15674347402455
+Shares bought : 0
+Shares sold : 0
+Shares held: 198 
+Total commission cost: 376.7286935260001
+Avg cost for held shares: 278.87011778645 (Total sales value: 163540.05947100002)
+Net worth: 55402.795357474024 (Max net worth: 55575.778958062016)
+Profit: 5402.795357474024
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 5621.714181393
+------------------------------
+Step: 41
+Balance: 224.15674347402455
+Shares bought : 0
+Shares sold : 0
+Shares held: 198 
+Total commission cost: 376.7286935260001
+Avg cost for held shares: 278.87011778645 (Total sales value: 163540.05947100002)
+Net worth: 55747.319317474015 (Max net worth: 55747.319317474015)
+Profit: 5747.319317474015
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 5967.978161392992
+------------------------------
+Step: 42
+Balance: 224.15674347402455
+Shares bought : 0
+Shares sold : 0
+Shares held: 198 
+Total commission cost: 376.7286935260001
+Avg cost for held shares: 278.87011778645 (Total sales value: 163540.05947100002)
+Net worth: 55545.355555474016 (Max net worth: 55747.319317474015)
+Profit: 5545.355555474016
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 5764.994380392994
+------------------------------
+Step: 43
+Balance: 224.15674347402455
+Shares bought : 0
+Shares sold : 0
+Shares held: 198 
+Total commission cost: 376.7286935260001
+Avg cost for held shares: 278.87011778645 (Total sales value: 163540.05947100002)
+Net worth: 55470.114565474025 (Max net worth: 55747.319317474015)
+Profit: 5470.114565474025
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 5689.373385392997
+------------------------------
+Step: 44
+Balance: 224.15674347402455
+Shares bought : 0
+Shares sold : 0
+Shares held: 198 
+Total commission cost: 376.7286935260001
+Avg cost for held shares: 278.87011778645 (Total sales value: 163540.05947100002)
+Net worth: 55135.49416947403 (Max net worth: 55747.319317474015)
+Profit: 5135.494169474026
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 5353.062987392998
+------------------------------
+Step: 45
+Balance: 224.15674347402455
+Shares bought : 0
+Shares sold : 0
+Shares held: 198 
+Total commission cost: 376.7286935260001
+Avg cost for held shares: 278.87011778645 (Total sales value: 163540.05947100002)
+Net worth: 54676.138723474025 (Max net worth: 55747.319317474015)
+Profit: 4676.138723474025
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 4891.387564393
+------------------------------
+Step: 46
+Balance: 30932.936216482027
+Shares bought : 0
+Shares sold : 112
+Shares held: 86 
+Total commission cost: 407.4682125180001
+Avg cost for held shares: 278.87011778645 (Total sales value: 194279.578463)
+Net worth: 54536.49544248203 (Max net worth: 55747.319317474015)
+Profit: 4536.495442482032
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 4781.933783392996
+------------------------------
+Step: 47
+Balance: 10586.489950336025
+Shares bought : 73
+Shares sold : 0
+Shares held: 159 
+Total commission cost: 427.7943326640001
+Avg cost for held shares: 278.8004804766082 (Total sales value: 194279.578463)
+Net worth: 54858.45026833602 (Max net worth: 55747.319317474015)
+Profit: 4858.450268336019
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 5573.955972392994
+------------------------------
+Step: 48
+Balance: 10586.489950336025
+Shares bought : 0
+Shares sold : 0
+Shares held: 159 
+Total commission cost: 427.7943326640001
+Avg cost for held shares: 278.8004804766082 (Total sales value: 194279.578463)
+Net worth: 55025.398360336025 (Max net worth: 55747.319317474015)
+Profit: 5025.398360336025
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 5782.9035843929905
+------------------------------
+Step: 49
+Balance: 10586.489950336025
+Shares bought : 0
+Shares sold : 0
+Shares held: 159 
+Total commission cost: 427.7943326640001
+Avg cost for held shares: 278.8004804766082 (Total sales value: 194279.578463)
+Net worth: 55319.54931433602 (Max net worth: 55747.319317474015)
+Profit: 5319.549314336022
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 6151.054778392992
+------------------------------
+Step: 50
+Balance: 10586.489950336025
+Shares bought : 0
+Shares sold : 0
+Shares held: 159 
+Total commission cost: 427.7943326640001
+Avg cost for held shares: 278.8004804766082 (Total sales value: 194279.578463)
+Net worth: 55290.93058633602 (Max net worth: 55747.319317474015)
+Profit: 5290.9305863360205
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 6115.236370392999
+------------------------------
+Step: 51
+Balance: 10586.489950336025
+Shares bought : 0
+Shares sold : 0
+Shares held: 159 
+Total commission cost: 427.7943326640001
+Avg cost for held shares: 278.8004804766082 (Total sales value: 194279.578463)
+Net worth: 55314.77963233602 (Max net worth: 55747.319317474015)
+Profit: 5314.7796323360235
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 6145.085176392997
+------------------------------
+Step: 52
+Balance: 10586.489950336025
+Shares bought : 0
+Shares sold : 0
+Shares held: 159 
+Total commission cost: 427.7943326640001
+Avg cost for held shares: 278.8004804766082 (Total sales value: 194279.578463)
+Net worth: 55476.95788333603 (Max net worth: 55747.319317474015)
+Profit: 5476.957883336028
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 6348.062987392998
+------------------------------
+Step: 53
+Balance: 55443.18739729002
+Shares bought : 0
+Shares sold : 159
+Shares held: 0 
+Total commission cost: 472.6959317100001
+Avg cost for held shares: 0 (Total sales value: 239181.177509)
+Net worth: 55443.18739729002 (Max net worth: 55747.319317474015)
+Profit: 5443.187397290021
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 6361.994380392994
+------------------------------
+Step: 54
+Balance: 32896.664358250026
+Shares bought : 80
+Shares sold : 0
+Shares held: 80 
+Total commission cost: 495.21993075000006
+Avg cost for held shares: 281.831537988 (Total sales value: 239181.177509)
+Net worth: 55420.66339825002 (Max net worth: 55747.319317474015)
+Profit: 5420.663398250021
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 6192.843186392993
+------------------------------
+Step: 55
+Balance: 32896.664358250026
+Shares bought : 0
+Shares sold : 0
+Shares held: 80 
+Total commission cost: 495.21993075000006
+Avg cost for held shares: 281.831537988 (Total sales value: 239181.177509)
+Net worth: 55675.06523825003 (Max net worth: 55747.319317474015)
+Profit: 5675.065238250027
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 6825.667763392993
+------------------------------
+Step: 56
+Balance: 32896.664358250026
+Shares bought : 0
+Shares sold : 0
+Shares held: 80 
+Total commission cost: 495.21993075000006
+Avg cost for held shares: 281.831537988 (Total sales value: 239181.177509)
+Net worth: 55236.664358250026 (Max net worth: 55747.319317474015)
+Profit: 5236.6643582500255
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 5735.1455743929955
+------------------------------
+Step: 57
+Balance: 216.33562419702503
+Shares bought : 117
+Shares sold : 0
+Shares held: 197 
+Total commission cost: 527.867611803
+Avg cost for held shares: 280.33934910199497 (Total sales value: 239181.177509)
+Net worth: 55187.217397197026 (Max net worth: 55747.319317474015)
+Profit: 5187.217397197026
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 5693.357365392995
+------------------------------
+Step: 58
+Balance: 216.33562419702503
+Shares bought : 0
+Shares sold : 0
+Shares held: 197 
+Total commission cost: 527.867611803
+Avg cost for held shares: 280.33934910199497 (Total sales value: 239181.177509)
+Net worth: 55596.974639197026 (Max net worth: 55747.319317474015)
+Profit: 5596.974639197026
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 6107.274579392999
+------------------------------
+Step: 59
+Balance: 216.33562419702503
+Shares bought : 0
+Shares sold : 0
+Shares held: 197 
+Total commission cost: 527.867611803
+Avg cost for held shares: 280.33934910199497 (Total sales value: 239181.177509)
+Net worth: 55307.38444219702 (Max net worth: 55747.319317474015)
+Profit: 5307.384442197021
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 5814.744380392994
+------------------------------
+Step: 60
+Balance: 216.33562419702503
+Shares bought : 0
+Shares sold : 0
+Shares held: 197 
+Total commission cost: 527.867611803
+Avg cost for held shares: 280.33934910199497 (Total sales value: 239181.177509)
+Net worth: 55516.203851197024 (Max net worth: 55747.319317474015)
+Profit: 5516.203851197024
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 6025.683783392996
+------------------------------
+Step: 61
+Balance: 216.33562419702503
+Shares bought : 0
+Shares sold : 0
+Shares held: 197 
+Total commission cost: 527.867611803
+Avg cost for held shares: 280.33934910199497 (Total sales value: 239181.177509)
+Net worth: 55864.89779119702 (Max net worth: 55864.89779119702)
+Profit: 5864.897791197021
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 6377.917763392993
+------------------------------
+Step: 62
+Balance: 1644.0564092620252
+Shares bought : 0
+Shares sold : 5
+Shares held: 192 
+Total commission cost: 529.2967617380001
+Avg cost for held shares: 280.33934910199497 (Total sales value: 240610.327444)
+Net worth: 56523.413913262026 (Max net worth: 56523.413913262026)
+Profit: 6523.413913262026
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 7044.562987392998
+------------------------------
+Step: 63
+Balance: 1644.0564092620252
+Shares bought : 0
+Shares sold : 0
+Shares held: 192 
+Total commission cost: 529.2967617380001
+Avg cost for held shares: 280.33934910199497 (Total sales value: 240610.327444)
+Net worth: 56550.29660126202 (Max net worth: 56550.29660126202)
+Profit: 6550.296601262024
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 7072.425773392989
+------------------------------
+Step: 64
+Balance: 1644.0564092620252
+Shares bought : 0
+Shares sold : 0
+Shares held: 192 
+Total commission cost: 529.2967617380001
+Avg cost for held shares: 280.33934910199497 (Total sales value: 240610.327444)
+Net worth: 56636.69890526203 (Max net worth: 56636.69890526203)
+Profit: 6636.6989052620265
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 7161.978161392992
+------------------------------
+Step: 65
+Balance: 206.72054429702507
+Shares bought : 5
+Shares sold : 0
+Shares held: 197 
+Total commission cost: 530.7326617030001
+Avg cost for held shares: 280.5202583378073 (Total sales value: 240610.327444)
+Net worth: 56781.17916529703 (Max net worth: 56781.17916529703)
+Profit: 6781.179165297028
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 7313.214181393
+------------------------------
+Step: 66
+Balance: 206.72054429702507
+Shares bought : 0
+Shares sold : 0
+Shares held: 197 
+Total commission cost: 530.7326617030001
+Avg cost for held shares: 280.5202583378073 (Total sales value: 240610.327444)
+Net worth: 57055.01192329702 (Max net worth: 57055.01192329702)
+Profit: 7055.011923297017
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 7589.826967392991
+------------------------------
+Step: 67
+Balance: 206.72054429702507
+Shares bought : 0
+Shares sold : 0
+Shares held: 197 
+Total commission cost: 530.7326617030001
+Avg cost for held shares: 280.5202583378073 (Total sales value: 240610.327444)
+Net worth: 57098.35231729702 (Max net worth: 57098.35231729702)
+Profit: 7098.352317297024
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 7633.607365392995
+------------------------------
+Step: 68
+Balance: 206.72054429702507
+Shares bought : 0
+Shares sold : 0
+Shares held: 197 
+Total commission cost: 530.7326617030001
+Avg cost for held shares: 280.5202583378073 (Total sales value: 240610.327444)
+Net worth: 56806.79015029703 (Max net worth: 57098.35231729702)
+Profit: 6806.790150297027
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 7339.085176392997
+------------------------------
+Step: 69
+Balance: 17486.823683757026
+Shares bought : 0
+Shares sold : 60
+Shares held: 137 
+Total commission cost: 548.0300622430001
+Avg cost for held shares: 280.5202583378073 (Total sales value: 257907.727984)
+Net worth: 56982.55491675703 (Max net worth: 57098.35231729702)
+Profit: 6982.554916757028
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 7534.107365392995
+------------------------------
+Step: 70
+Balance: 3927.408237180027
+Shares bought : 47
+Shares sold : 0
+Shares held: 184 
+Total commission cost: 561.57593182
+Avg cost for held shares: 282.5581023850902 (Total sales value: 257907.727984)
+Net worth: 56958.046581180024 (Max net worth: 57098.35231729702)
+Profit: 6958.046581180024
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 7518.183783392996
+------------------------------
+Step: 71
+Balance: 3927.408237180027
+Shares bought : 0
+Shares sold : 0
+Shares held: 184 
+Total commission cost: 561.57593182
+Avg cost for held shares: 282.5581023850902 (Total sales value: 257907.727984)
+Net worth: 57316.84897318003 (Max net worth: 57316.84897318003)
+Profit: 7316.848973180029
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 7906.236370392999
+------------------------------
+Step: 72
+Balance: 3927.408237180027
+Shares bought : 0
+Shares sold : 0
+Shares held: 184 
+Total commission cost: 561.57593182
+Avg cost for held shares: 282.5581023850902 (Total sales value: 257907.727984)
+Net worth: 57281.88842118002 (Max net worth: 57316.84897318003)
+Profit: 7281.888421180018
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 7868.425773392989
+------------------------------
+Step: 73
+Balance: 3927.408237180027
+Shares bought : 0
+Shares sold : 0
+Shares held: 184 
+Total commission cost: 561.57593182
+Avg cost for held shares: 282.5581023850902 (Total sales value: 257907.727984)
+Net worth: 57316.84897318003 (Max net worth: 57316.84897318003)
+Profit: 7316.848973180029
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 7906.236370392999
+------------------------------
+Step: 74
+Balance: 3927.408237180027
+Shares bought : 0
+Shares sold : 0
+Shares held: 184 
+Total commission cost: 561.57593182
+Avg cost for held shares: 282.5581023850902 (Total sales value: 257907.727984)
+Net worth: 57186.210445180026 (Max net worth: 57316.84897318003)
+Profit: 7186.210445180026
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 7764.947962392998
+------------------------------
+Step: 75
+Balance: 2475.8581922350268
+Shares bought : 5
+Shares sold : 0
+Shares held: 189 
+Total commission cost: 563.0260317650001
+Avg cost for held shares: 282.7631792793735 (Total sales value: 257907.727984)
+Net worth: 57289.63611323503 (Max net worth: 57316.84897318003)
+Profit: 7289.6361132350285
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 7878.373385392997
+------------------------------
+Step: 76
+Balance: 2475.8581922350268
+Shares bought : 0
+Shares sold : 0
+Shares held: 189 
+Total commission cost: 563.0260317650001
+Avg cost for held shares: 282.7631792793735 (Total sales value: 257907.727984)
+Net worth: 57336.88611323503 (Max net worth: 57336.88611323503)
+Profit: 7336.8861132350285
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 7928.123385392997
+------------------------------
+Step: 77
+Balance: 2475.8581922350268
+Shares bought : 0
+Shares sold : 0
+Shares held: 189 
+Total commission cost: 563.0260317650001
+Avg cost for held shares: 282.7631792793735 (Total sales value: 257907.727984)
+Net worth: 57830.17913723503 (Max net worth: 57830.17913723503)
+Profit: 7830.179137235027
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 8447.51656939299
+------------------------------
+Step: 78
+Balance: 2475.8581922350268
+Shares bought : 0
+Shares sold : 0
+Shares held: 189 
+Total commission cost: 563.0260317650001
+Avg cost for held shares: 282.7631792793735 (Total sales value: 257907.727984)
+Net worth: 57707.33027123503 (Max net worth: 57830.17913723503)
+Profit: 7707.330271235027
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 8318.167763392992
+------------------------------
+Step: 79
+Balance: 2475.8581922350268
+Shares bought : 0
+Shares sold : 0
+Shares held: 189 
+Total commission cost: 563.0260317650001
+Avg cost for held shares: 282.7631792793735 (Total sales value: 257907.727984)
+Net worth: 57673.30592423503 (Max net worth: 57830.17913723503)
+Profit: 7673.305924235028
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 8282.34318639299
+------------------------------
+Step: 80
+Balance: 2475.8581922350268
+Shares bought : 0
+Shares sold : 0
+Shares held: 189 
+Total commission cost: 563.0260317650001
+Avg cost for held shares: 282.7631792793735 (Total sales value: 257907.727984)
+Net worth: 57930.34894823503 (Max net worth: 57930.34894823503)
+Profit: 7930.348948235027
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 8552.986370392997
+------------------------------
+Step: 81
+Balance: 2475.8581922350268
+Shares bought : 0
+Shares sold : 0
+Shares held: 189 
+Total commission cost: 563.0260317650001
+Avg cost for held shares: 282.7631792793735 (Total sales value: 257907.727984)
+Net worth: 58017.28724723503 (Max net worth: 58017.28724723503)
+Profit: 8017.287247235028
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 8644.524579392997
+------------------------------
+Step: 82
+Balance: 2475.8581922350268
+Shares bought : 0
+Shares sold : 0
+Shares held: 189 
+Total commission cost: 563.0260317650001
+Avg cost for held shares: 282.7631792793735 (Total sales value: 257907.727984)
+Net worth: 58045.63611323503 (Max net worth: 58045.63611323503)
+Profit: 8045.6361132350285
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 8674.373385392997
+------------------------------
+Step: 83
+Balance: 2475.8581922350268
+Shares bought : 0
+Shares sold : 0
+Shares held: 189 
+Total commission cost: 563.0260317650001
+Avg cost for held shares: 282.7631792793735 (Total sales value: 257907.727984)
+Net worth: 57627.94781423503 (Max net worth: 58045.63611323503)
+Profit: 7627.947814235027
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 8234.585176392997
+------------------------------
+Step: 84
+Balance: 2475.8581922350268
+Shares bought : 0
+Shares sold : 0
+Shares held: 189 
+Total commission cost: 563.0260317650001
+Avg cost for held shares: 282.7631792793735 (Total sales value: 257907.727984)
+Net worth: 57508.876869235035 (Max net worth: 58045.63611323503)
+Profit: 7508.876869235035
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 8109.214181393
+------------------------------
+Step: 85
+Balance: 2475.8581922350268
+Shares bought : 0
+Shares sold : 0
+Shares held: 189 
+Total commission cost: 563.0260317650001
+Avg cost for held shares: 282.7631792793735 (Total sales value: 257907.727984)
+Net worth: 58047.528003235035 (Max net worth: 58047.528003235035)
+Profit: 8047.528003235035
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 8676.365375393001
+------------------------------
+Step: 86
+Balance: 2475.8581922350268
+Shares bought : 0
+Shares sold : 0
+Shares held: 189 
+Total commission cost: 563.0260317650001
+Avg cost for held shares: 282.7631792793735 (Total sales value: 257907.727984)
+Net worth: 57818.83951523502 (Max net worth: 58047.528003235035)
+Profit: 7818.83951523502
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 8435.57696739299
+------------------------------
+Step: 87
+Balance: 458.3327312840265
+Shares bought : 7
+Shares sold : 0
+Shares held: 196 
+Total commission cost: 565.0415417160001
+Avg cost for held shares: 282.95799155486014 (Total sales value: 257907.727984)
+Net worth: 56892.611359284034 (Max net worth: 58047.528003235035)
+Profit: 6892.611359284034
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 7462.464181393
+------------------------------
+Step: 88
+Balance: 169.8027322840265
+Shares bought : 1
+Shares sold : 0
+Shares held: 197 
+Total commission cost: 566.0415417160001
+Avg cost for held shares: 282.9862758566121 (Total sales value: 257907.727984)
+Net worth: 56813.21253528404 (Max net worth: 58047.528003235035)
+Profit: 6813.212535284038
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 7382.865375393002
+------------------------------
+Step: 89
+Balance: 169.8027322840265
+Shares bought : 0
+Shares sold : 0
+Shares held: 197 
+Total commission cost: 566.0415417160001
+Avg cost for held shares: 282.9862758566121 (Total sales value: 257907.727984)
+Net worth: 56641.82352028403 (Max net worth: 58047.528003235035)
+Profit: 6641.82352028403
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 7209.736370392999
+------------------------------
+Step: 90
+Balance: 169.8027322840265
+Shares bought : 0
+Shares sold : 0
+Shares held: 197 
+Total commission cost: 566.0415417160001
+Avg cost for held shares: 282.9862758566121 (Total sales value: 257907.727984)
+Net worth: 56925.50391428403 (Max net worth: 58047.528003235035)
+Profit: 6925.503914284032
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 7496.2967683929965
+------------------------------
+Step: 91
+Balance: 19249.18323330403
+Shares bought : 0
+Shares sold : 68
+Shares held: 129 
+Total commission cost: 585.1400206960001
+Avg cost for held shares: 282.9862758566121 (Total sales value: 277006.206964)
+Net worth: 55480.12129830403 (Max net worth: 58047.528003235035)
+Profit: 5480.121298304031
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 6055.532589392994
+------------------------------
+Step: 92
+Balance: 242.3958357060328
+Shares bought : 67
+Shares sold : 0
+Shares held: 196 
+Total commission cost: 604.1278202940001
+Avg cost for held shares: 283.22457644439265 (Total sales value: 277006.206964)
+Net worth: 55788.79465970603 (Max net worth: 58047.528003235035)
+Profit: 5788.794659706029
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 6560.994380392994
+------------------------------
+Step: 93
+Balance: 35839.26308595604
+Shares bought : 0
+Shares sold : 125
+Shares held: 71 
+Total commission cost: 639.7603200440001
+Avg cost for held shares: 283.22457644439265 (Total sales value: 312638.706714)
+Net worth: 56078.522943956035 (Max net worth: 58047.528003235035)
+Profit: 6078.522943956035
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 6891.335176392997
+------------------------------
+Step: 94
+Balance: 35839.26308595604
+Shares bought : 0
+Shares sold : 0
+Shares held: 71 
+Total commission cost: 639.7603200440001
+Avg cost for held shares: 283.22457644439265 (Total sales value: 312638.706714)
+Net worth: 56265.96393795604 (Max net worth: 58047.528003235035)
+Profit: 6265.963937956039
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 7416.697962392998
+------------------------------
+Step: 95
+Balance: 35839.26308595604
+Shares bought : 0
+Shares sold : 0
+Shares held: 71 
+Total commission cost: 639.7603200440001
+Avg cost for held shares: 283.22457644439265 (Total sales value: 312638.706714)
+Net worth: 56133.902801956036 (Max net worth: 58047.528003235035)
+Profit: 6133.902801956036
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 7046.554778392992
+------------------------------
+Step: 96
+Balance: 21911.798947368035
+Shares bought : 49
+Shares sold : 0
+Shares held: 120 
+Total commission cost: 653.6738706320001
+Avg cost for held shares: 283.63674221783236 (Total sales value: 312638.706714)
+Net worth: 55985.800387368035 (Max net worth: 58047.528003235035)
+Profit: 5985.800387368035
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 6670.447962392998
+------------------------------
+Step: 97
+Balance: 21911.798947368035
+Shares bought : 0
+Shares sold : 0
+Shares held: 120 
+Total commission cost: 653.6738706320001
+Avg cost for held shares: 283.63674221783236 (Total sales value: 312638.706714)
+Net worth: 56293.00014736804 (Max net worth: 58047.528003235035)
+Profit: 6293.000147368039
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 7179.887564393
+------------------------------
+Step: 98
+Balance: 51872.958321843034
+Shares bought : 0
+Shares sold : 105
+Shares held: 15 
+Total commission cost: 683.6650211570001
+Avg cost for held shares: 283.63674221783236 (Total sales value: 342629.85723900003)
+Net worth: 56157.408396843035 (Max net worth: 58047.528003235035)
+Profit: 6157.408396843035
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 7004.766569392992
+------------------------------
+Step: 99
+Balance: 51872.958321843034
+Shares bought : 0
+Shares sold : 0
+Shares held: 15 
+Total commission cost: 683.6650211570001
+Avg cost for held shares: 283.63674221783236 (Total sales value: 342629.85723900003)
+Net worth: 56105.058546843036 (Max net worth: 58047.528003235035)
+Profit: 6105.058546843036
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 6310.258559392996
+------------------------------
+Step: 100
+Balance: 4884.537008009029
+Shares bought : 166
+Shares sold : 0
+Shares held: 181 
+Total commission cost: 730.6065009910001
+Avg cost for held shares: 283.11034501161043 (Total sales value: 342629.85723900003)
+Net worth: 56067.71682700903 (Max net worth: 58047.528003235035)
+Profit: 6067.716827009033
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 6437.615375393002
+------------------------------
+Step: 101
+Balance: 4884.537008009029
+Shares bought : 0
+Shares sold : 0
+Shares held: 181 
+Total commission cost: 730.6065009910001
+Avg cost for held shares: 283.11034501161043 (Total sales value: 342629.85723900003)
+Net worth: 55591.68592200903 (Max net worth: 58047.528003235035)
+Profit: 5591.685922009026
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 5914.244380392994
+------------------------------
+Step: 102
+Balance: 4884.537008009029
+Shares bought : 0
+Shares sold : 0
+Shares held: 181 
+Total commission cost: 730.6065009910001
+Avg cost for held shares: 283.11034501161043 (Total sales value: 342629.85723900003)
+Net worth: 55251.405017009034 (Max net worth: 58047.528003235035)
+Profit: 5251.405017009034
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 5540.123385392997
+------------------------------
+Step: 103
+Balance: 4884.537008009029
+Shares bought : 0
+Shares sold : 0
+Shares held: 181 
+Total commission cost: 730.6065009910001
+Avg cost for held shares: 283.11034501161043 (Total sales value: 342629.85723900003)
+Net worth: 55388.96682700903 (Max net worth: 58047.528003235035)
+Profit: 5388.966827009033
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 5691.365375393002
+------------------------------
+Step: 104
+Balance: 54658.581149000034
+Shares bought : 0
+Shares sold : 181
+Shares held: 0 
+Total commission cost: 780.430369
+Avg cost for held shares: 0 (Total sales value: 392453.72524800006)
+Net worth: 54658.581149000034 (Max net worth: 58047.528003235035)
+Profit: 4658.581149000034
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 4943.123385392997
+------------------------------
+Step: 105
+Balance: 6560.780172775041
+Shares bought : 175
+Shares sold : 0
+Shares held: 175 
+Total commission cost: 828.4801202250001
+Avg cost for held shares: 274.84457700699994 (Total sales value: 392453.72524800006)
+Net worth: 54610.531397775034 (Max net worth: 58047.528003235035)
+Profit: 4610.531397775034
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 4803.826967392991
+------------------------------
+Step: 106
+Balance: 6560.780172775041
+Shares bought : 0
+Shares sold : 0
+Shares held: 175 
+Total commission cost: 828.4801202250001
+Avg cost for held shares: 274.84457700699994 (Total sales value: 392453.72524800006)
+Net worth: 55653.52999777505 (Max net worth: 58047.528003235035)
+Profit: 5653.529997775047
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 5989.865375393002
+------------------------------
+Step: 107
+Balance: 46.19229998204082
+Shares bought : 23
+Shares sold : 0
+Shares held: 198 
+Total commission cost: 834.988200018
+Avg cost for held shares: 275.8201457021111 (Total sales value: 392453.72524800006)
+Net worth: 56072.27051798204 (Max net worth: 58047.528003235035)
+Profit: 6072.2705179820405
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 6473.433783392996
+------------------------------
+Step: 108
+Balance: 46.19229998204082
+Shares bought : 0
+Shares sold : 0
+Shares held: 198 
+Total commission cost: 834.988200018
+Avg cost for held shares: 275.8201457021111 (Total sales value: 392453.72524800006)
+Net worth: 56436.589923982036 (Max net worth: 58047.528003235035)
+Profit: 6436.5899239820355
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 6839.593186392993
+------------------------------
+Step: 109
+Balance: 46.19229998204082
+Shares bought : 0
+Shares sold : 0
+Shares held: 198 
+Total commission cost: 834.988200018
+Avg cost for held shares: 275.8201457021111 (Total sales value: 392453.72524800006)
+Net worth: 57000.89111198203 (Max net worth: 58047.528003235035)
+Profit: 7000.891111982033
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 7406.744380392994
+------------------------------
+Step: 110
+Balance: 46.19229998204082
+Shares bought : 0
+Shares sold : 0
+Shares held: 198 
+Total commission cost: 834.988200018
+Avg cost for held shares: 275.8201457021111 (Total sales value: 392453.72524800006)
+Net worth: 57262.25249798203 (Max net worth: 58047.528003235035)
+Profit: 7262.25249798203
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 7669.425773392989
+------------------------------
+Step: 111
+Balance: 46.19229998204082
+Shares bought : 0
+Shares sold : 0
+Shares held: 198 
+Total commission cost: 834.988200018
+Avg cost for held shares: 275.8201457021111 (Total sales value: 392453.72524800006)
+Net worth: 57248.39111198203 (Max net worth: 58047.528003235035)
+Profit: 7248.391111982033
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 7655.494380392994
+------------------------------
+Step: 112
+Balance: 46.19229998204082
+Shares bought : 0
+Shares sold : 0
+Shares held: 198 
+Total commission cost: 834.988200018
+Avg cost for held shares: 275.8201457021111 (Total sales value: 392453.72524800006)
+Net worth: 57147.41526998204 (Max net worth: 58047.528003235035)
+Profit: 7147.415269982041
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 7554.008559392996
+------------------------------
+Step: 113
+Balance: 42282.59172388005
+Shares bought : 0
+Shares sold : 146
+Shares held: 52 
+Total commission cost: 877.26687812
+Avg cost for held shares: 275.8201457021111 (Total sales value: 434732.40335000004)
+Net worth: 57340.75104788005 (Max net worth: 58047.528003235035)
+Profit: 7340.751047880047
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 7790.812987392998
+------------------------------
+Step: 114
+Balance: 42282.59172388005
+Shares bought : 0
+Shares sold : 146
+Shares held: 52 
+Total commission cost: 877.26687812
+Avg cost for held shares: 275.8201457021111 (Total sales value: 434732.40335000004)
+Net worth: 57324.11224388005 (Max net worth: 58047.528003235035)
+Profit: 7324.112243880052
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 7727.137564393
+------------------------------
+Step: 115
+Balance: 42282.59172388005
+Shares bought : 0
+Shares sold : 0
+Shares held: 52 
+Total commission cost: 877.26687812
+Avg cost for held shares: 275.8201457021111 (Total sales value: 434732.40335000004)
+Net worth: 57329.83146388005 (Max net worth: 58047.528003235035)
+Profit: 7329.831463880051
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 7749.024579392999
+------------------------------
+Step: 116
+Balance: 134.88698874405236
+Shares bought : 144
+Shares sold : 0
+Shares held: 196 
+Total commission cost: 919.372477256
+Avg cost for held shares: 288.2160832226825 (Total sales value: 434732.40335000004)
+Net worth: 57445.28581274405 (Max net worth: 58047.528003235035)
+Profit: 7445.285812744049
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 8351.994380392993
+------------------------------
+Step: 117
+Balance: 28533.27997493805
+Shares bought : 0
+Shares sold : 97
+Shares held: 99 
+Total commission cost: 947.799297062
+Avg cost for held shares: 288.2160832226825 (Total sales value: 463159.223156)
+Net worth: 57546.21977693805 (Max net worth: 58047.528003235035)
+Profit: 7546.219776938051
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 8483.335176392997
+------------------------------
+Step: 118
+Balance: 102.31885637805317
+Shares bought : 96
+Shares sold : 0
+Shares held: 195 
+Total commission cost: 976.201855622
+Avg cost for held shares: 292.12488901336184 (Total sales value: 463159.223156)
+Net worth: 57795.015931378046 (Max net worth: 58047.528003235035)
+Profit: 7795.015931378046
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 9040.532589392993
+------------------------------
+Step: 119
+Balance: 25067.32885637805
+Shares bought : 0
+Shares sold : 85
+Shares held: 110 
+Total commission cost: 1001.191855622
+Avg cost for held shares: 292.12488901336184 (Total sales value: 488149.223156)
+Net worth: 57407.32885637805 (Max net worth: 58047.528003235035)
+Profit: 7407.328856378052
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 8670.395574392995
+------------------------------
+Step: 120
+Balance: 25067.32885637805
+Shares bought : 0
+Shares sold : 0
+Shares held: 110 
+Total commission cost: 1001.191855622
+Avg cost for held shares: 292.12488901336184 (Total sales value: 488149.223156)
+Net worth: 57367.73050637805 (Max net worth: 58047.528003235035)
+Profit: 7367.730506378051
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 8598.758559392996
+------------------------------
+Step: 121
+Balance: 25067.32885637805
+Shares bought : 0
+Shares sold : 0
+Shares held: 110 
+Total commission cost: 1001.191855622
+Avg cost for held shares: 292.12488901336184 (Total sales value: 488149.223156)
+Net worth: 57050.92995637805 (Max net worth: 58047.528003235035)
+Profit: 7050.929956378051
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 8025.637564393
+------------------------------
+Step: 122
+Balance: 25067.32885637805
+Shares bought : 0
+Shares sold : 0
+Shares held: 110 
+Total commission cost: 1001.191855622
+Avg cost for held shares: 292.12488901336184 (Total sales value: 488149.223156)
+Net worth: 57019.02896637805 (Max net worth: 58047.528003235035)
+Profit: 7019.0289663780495
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 7967.925773392989
+------------------------------
+Step: 123
+Balance: 25067.32885637805
+Shares bought : 0
+Shares sold : 0
+Shares held: 110 
+Total commission cost: 1001.191855622
+Avg cost for held shares: 292.12488901336184 (Total sales value: 488149.223156)
+Net worth: 57132.32885637805 (Max net worth: 58047.528003235035)
+Profit: 7132.328856378052
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 8172.8955743929955
+------------------------------
+Step: 124
+Balance: 25067.32885637805
+Shares bought : 0
+Shares sold : 0
+Shares held: 110 
+Total commission cost: 1001.191855622
+Avg cost for held shares: 292.12488901336184 (Total sales value: 488149.223156)
+Net worth: 57297.32885637805 (Max net worth: 58047.528003235035)
+Profit: 7297.328856378052
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 8471.395574392995
+------------------------------
+Step: 125
+Balance: 25067.32885637805
+Shares bought : 0
+Shares sold : 0
+Shares held: 110 
+Total commission cost: 1001.191855622
+Avg cost for held shares: 292.12488901336184 (Total sales value: 488149.223156)
+Net worth: 57589.92929637805 (Max net worth: 58047.528003235035)
+Profit: 7589.929296378054
+Buy and Hold: ****************************************
+No of shares: 199.0 average cost per share 250.17999300000002
+profit is 9000.736370392997
