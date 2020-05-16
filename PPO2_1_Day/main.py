@@ -7,7 +7,7 @@ import pandas as pd
 from stable_baselines import PPO2
 from stable_baselines.common.vec_env import DummyVecEnv
 
-from rlenv.StockTradingEnv_US import StockTradingEnv_US
+from PPO2_1_Day.rlenv.StockTradingEnv_US import StockTradingEnv_US
 
 # from stable_baselines.deepq.policies import MlpPolicy
 
@@ -29,7 +29,7 @@ def find_file(path, name):
 def test_a_stock_trade_US(stock_code, counter):
     stock_file_train = find_file('./stockdata/train', str(stock_code))
 
-    NO_OF_TEST_TRADING_DAYS = 104
+    NO_OF_TEST_TRADING_DAYS = 341
 
     daily_profits, buy_hold_profit, good_model, model, total_steps = stock_trade_US(stock_file_train,
                                                                                     NO_OF_TEST_TRADING_DAYS)
@@ -73,7 +73,7 @@ def stock_trade_US(stock_file_train, no_of_test_trading_days):
     # The algorithms require a vectorized environment to run
     env_train = DummyVecEnv([lambda: StockTradingEnv_US(df_train)])
 
-    total_timesteps = int(5e4)
+    total_timesteps = int(4e4)
     # total_timesteps = int(1e5)
 
     model = PPO2('MlpPolicy', env_train, verbose=0, tensorboard_log='./log', seed=12345).learn(
@@ -91,7 +91,12 @@ def stock_trade_US(stock_file_train, no_of_test_trading_days):
     day_profits = []
     buy_hold_profit = []
 
-    df_test = pd.read_csv(stock_file_train.replace('train', 'test')).drop(['Adj Close'], axis=1)
+    df_test_raw = pd.read_csv(stock_file_train.replace('train', 'test'))
+    #start from random day
+    # df_test = df_test_raw.iloc[200:].reset_index(drop=True)
+    df_test = df_test_raw
+
+    df_test = df_test.drop(['Adj Close'], axis=1)
 
     env_test = DummyVecEnv([lambda: StockTradingEnv_US(df_test)])
     obs = env_test.reset()

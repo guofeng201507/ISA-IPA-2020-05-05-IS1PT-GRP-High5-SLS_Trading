@@ -1,7 +1,7 @@
 # added by gitignore-cli
 
 .idea
-log
+PPO2_1_Day/log
 .vscode/
 *.pkl
 

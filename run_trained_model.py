@@ -2,7 +2,7 @@ import pandas as pd
 from stable_baselines import PPO2
 from stable_baselines.common.vec_env import DummyVecEnv
 
-from rlenv.StockTradingEnv_US import StockTradingEnv_US
+from PPO2_1_Day.rlenv import StockTradingEnv_US
 
 INITIAL_ACCOUNT_BALANCE = 50000
 
