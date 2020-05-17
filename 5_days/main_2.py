@@ -8,8 +8,8 @@ from stable_baselines.common.policies import MlpPolicy
 from stable_baselines.common.vec_env import DummyVecEnv
 from stable_baselines import PPO2, DQN
 
-# from rlenv.StockTradingEnvO import StockTradingEnv # previous 5 days data
-from rlenv.StockTradingEnvUS import StockTradingEnv # previous day data
+# from rlenv.StockTradingEnv5 import StockTradingEnv # previous 5 days data
+from rlenv.StockTradingEnv1 import StockTradingEnv # previous day data
 # from stable_baselines.deepq.policies import MlpPolicy #only for dqn
 # from rlenv.StockDQNTradingEnv import StockTradingEnv #only for dqn
 
