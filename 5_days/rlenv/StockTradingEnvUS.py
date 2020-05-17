@@ -31,40 +31,26 @@ class StockTradingEnv(gym.Env):
 
         # Prices contains the OHCL values for the last five prices
         self.observation_space = spaces.Box(
-            low=0, high=1, shape=(6, 6), dtype=np.float16)
+            low=0, high=1, shape=(11,), dtype=np.float16)
 
     def _next_observation(self):
-        # Get the stock data points for the last 5 days and scale to between 0-1
         frame = np.array([
-            self.df.loc[self.current_step - 5: self.current_step, 'Open'].values / MAX_SHARE_PRICE,
-            self.df.loc[self.current_step - 5: self.current_step, 'High'].values / MAX_SHARE_PRICE,
-            self.df.loc[self.current_step - 5: self.current_step, 'Low'].values / MAX_SHARE_PRICE,
-            self.df.loc[self.current_step - 5: self.current_step, 'Close'].values / MAX_SHARE_PRICE,
-            self.df.loc[self.current_step - 5: self.current_step, 'Volume'].values / MAX_NUM_SHARES,
+            self.df.loc[self.current_step, 'Open'] / MAX_SHARE_PRICE,
+            self.df.loc[self.current_step, 'High'] / MAX_SHARE_PRICE,
+            self.df.loc[self.current_step, 'Low'] / MAX_SHARE_PRICE,
+            self.df.loc[self.current_step, 'Close'] / MAX_SHARE_PRICE,
+            self.df.loc[self.current_step, 'Volume'] / MAX_NUM_SHARES,
         ])
         
-        # frame = np.array([
-        #     self.df.loc[self.current_step: self.current_step +
-        #                 5, 'Open'].values / MAX_SHARE_PRICE,
-        #     self.df.loc[self.current_step: self.current_step +
-        #                 5, 'High'].values / MAX_SHARE_PRICE,
-        #     self.df.loc[self.current_step: self.current_step +
-        #                 5, 'Low'].values / MAX_SHARE_PRICE,
-        #     self.df.loc[self.current_step: self.current_step +
-        #                 5, 'Close'].values / MAX_SHARE_PRICE,
-        #     self.df.loc[self.current_step: self.current_step +
-        #                 5, 'Volume'].values / MAX_NUM_SHARES,
-        # ])
-
-        # Append additional data and scale each value to between 0-1
-        obs = np.append(frame, [[
+        obs = np.append(frame, [
             self.balance / MAX_ACCOUNT_BALANCE,
             self.max_net_worth / MAX_ACCOUNT_BALANCE,
             self.shares_held / MAX_NUM_SHARES,
             self.cost_basis / MAX_SHARE_PRICE,
             self.total_shares_sold / MAX_NUM_SHARES,
             self.total_sales_value / (MAX_NUM_SHARES * MAX_SHARE_PRICE),
-        ]], axis=0)
+        ], axis=0)
+
 
         return obs
 
@@ -125,8 +111,8 @@ class StockTradingEnv(gym.Env):
 
         self.current_step += 1
 
-        if self.current_step >= len(self.df.loc[:, 'Open'].values) - 5:
-            self.current_step = 6
+        if self.current_step >= len(self.df.loc[:, 'Open'].values):
+            self.current_step = 0
                   
         delay_modifier = (self.current_step / self.max_steps)
         
@@ -183,7 +169,7 @@ class StockTradingEnv(gym.Env):
         self.commission_cost = 0
         self.max_steps = len(self.df)
 
-        self.current_step = 5
+        self.current_step = 0
         self.share_start_step = self.current_step
         return self._next_observation()
 

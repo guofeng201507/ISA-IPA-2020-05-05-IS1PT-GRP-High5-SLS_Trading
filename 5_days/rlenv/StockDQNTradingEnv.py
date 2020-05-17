@@ -10,10 +10,9 @@ MAX_NUM_SHARES = 2147483647
 MAX_SHARE_PRICE = 5000
 MAX_OPEN_POSITIONS = 5
 MAX_STEPS = 20000
+MIN_COMMISSION = 1
 
 INITIAL_ACCOUNT_BALANCE = 50000
-
-random.seed(30)
 
 
 class StockTradingEnv(gym.Env):
@@ -36,16 +35,11 @@ class StockTradingEnv(gym.Env):
     def _next_observation(self):
         # Get the stock data points for the last 5 days and scale to between 0-1
         frame = np.array([
-            self.df.loc[self.current_step: self.current_step +
-                        5, 'Open'].values / MAX_SHARE_PRICE,
-            self.df.loc[self.current_step: self.current_step +
-                        5, 'High'].values / MAX_SHARE_PRICE,
-            self.df.loc[self.current_step: self.current_step +
-                        5, 'Low'].values / MAX_SHARE_PRICE,
-            self.df.loc[self.current_step: self.current_step +
-                        5, 'Close'].values / MAX_SHARE_PRICE,
-            self.df.loc[self.current_step: self.current_step +
-                        5, 'Volume'].values / MAX_NUM_SHARES,
+            self.df.loc[self.current_step - 5: self.current_step, 'Open'].values / MAX_SHARE_PRICE,
+            self.df.loc[self.current_step - 5: self.current_step, 'High'].values / MAX_SHARE_PRICE,
+            self.df.loc[self.current_step - 5: self.current_step, 'Low'].values / MAX_SHARE_PRICE,
+            self.df.loc[self.current_step - 5: self.current_step, 'Close'].values / MAX_SHARE_PRICE,
+            self.df.loc[self.current_step - 5: self.current_step, 'Volume'].values / MAX_NUM_SHARES,
         ])
 
         # Append additional data and scale each value to between 0-1
@@ -62,32 +56,45 @@ class StockTradingEnv(gym.Env):
 
     def _take_action(self, action):
         # Set the current price to a random price within the time step
-        current_price = random.uniform(
-            self.df.loc[self.current_step, "Open"], self.df.loc[self.current_step, "Close"])
-
+        # current_price = random.uniform(
+        #     self.df.loc[self.current_step, "Open"], self.df.loc[self.current_step, "Close"])
+        
+        # fixed current price to close
+        current_price = self.df.loc[self.current_step, "Close"]
+        
+        commission_cost = 0
         action_type = (action+9)//10
         amount = action%10/10
         if amount == 0:
             amount = 1
 
-        # if action_type < 1: 
         if 1 <= action_type < 2:
             # Buy amount % of balance in shares
             total_possible = int(self.balance / current_price)
             shares_bought = int(total_possible * amount)
             prev_cost = self.cost_basis * self.shares_held
             additional_cost = shares_bought * current_price
-
+            if shares_bought > 0:
+                commission_cost = max(MIN_COMMISSION, additional_cost * 0.001)  # Assume 0.1 % trade commission fee
+            additional_cost += commission_cost
+            
+            self.commission_cost = commission_cost
+            self.total_commission_cost += commission_cost
             self.balance -= additional_cost
             self.cost_basis = (
                 prev_cost + additional_cost) / (self.shares_held + shares_bought)
             self.shares_held += shares_bought
         
-        # elif action_type < 2:
         elif 2<= action_type < 3:
             # Sell amount % of shares held
             shares_sold = int(self.shares_held * amount)
-            self.balance += shares_sold * current_price
+            if shares_sold > 0:
+                commission_cost = max(MIN_COMMISSION,
+                                      shares_sold * current_price * 0.001)  # Assume 0.1 % trade commission fee. min 1 dollar
+            
+            self.balance += shares_sold * current_price  - commission_cost
+            self.commission_cost = commission_cost
+            self.total_commission_cost += commission_cost
             self.shares_held -= shares_sold
             self.total_shares_sold += shares_sold
             self.total_sales_value += shares_sold * current_price
@@ -106,27 +113,43 @@ class StockTradingEnv(gym.Env):
 
         self.current_step += 1
 
-        if self.current_step > len(self.df.loc[:, 'Open'].values) - 6:
-            self.current_step = 0
-            
-        # reward option 1
-        delay_modifier = (self.current_step / MAX_STEPS)
-        reward = self.balance * delay_modifier
+        if self.current_step >= len(self.df.loc[:, 'Open'].values) - 5:
+            self.current_step = 6
+                  
+        delay_modifier = (self.current_step / self.max_steps)
         
-        if self.current_step == self.share_start_step+1:
-            self.new_shares_held = 0
-            self.old_shares_held = 0
-        else:
-            self.old_shares_held = self.new_shares_held
-            self.new_shares_held = self.shares_held
-            
-        if self.new_shares_held == self.old_shares_held:
-            self.same_shares_held += 1
-            if self.same_shares_held >5:
-                reward = - self.same_shares_held
+        # reward option 1.1
+        # reward = self.balance * delay_modifier
+        
+        # reward option 1.2
+        # reward = self.net_worth
+        
+        # reward option 1.3
+        reward = (self.net_worth - INITIAL_ACCOUNT_BALANCE) * delay_modifier  # profit
         
         # reward option 2
-        # reward = self.net_worth - INITIAL_ACCOUNT_BALANCE
+        # if self.current_step == self.share_start_step+1:
+        #     self.new_shares_held = 0
+        #     self.old_shares_held = 0
+        # else:
+        #     self.old_shares_held = self.new_shares_held
+        #     self.new_shares_held = self.shares_held
+            
+        # if self.new_shares_held == self.old_shares_held:
+        #     self.same_shares_held += 1
+        #     if self.same_shares_held >5:
+        #         reward = - self.same_shares_held
+        
+        # reward option 3
+        # reward = self.net_worth - INITIAL_ACCOUNT_BALANCE - 5 # profit
+        
+        # reward option 4
+        # if reward > 0:
+        #     reward = 1
+        # elif reward == 0:
+        #     reward = -100
+        # else:
+        #     reward = -100
         
         done = self.net_worth <= 0
 
@@ -144,20 +167,18 @@ class StockTradingEnv(gym.Env):
         self.cost_basis = 0
         self.total_shares_sold = 0
         self.total_sales_value = 0
+        self.total_commission_cost = 0
+        self.commission_cost = 0
+        self.max_steps = len(self.df)
 
-        # Set the current step to a random point within the data frame
-        self.current_step = random.randint(
-            0, len(self.df.loc[:, 'Open'].values) - 6)
-
+        self.current_step = 5
         self.share_start_step = self.current_step
-        
-
         return self._next_observation()
 
     def render(self, mode='human', close=False):
         # Render the environment to the screen
         profit = self.net_worth - INITIAL_ACCOUNT_BALANCE
-        
+
         print(f'Step: {self.current_step}')
         print(f'Balance: {self.balance}')
         print(
@@ -166,6 +187,6 @@ class StockTradingEnv(gym.Env):
             f'Avg cost for held shares: {self.cost_basis} (Total sales value: {self.total_sales_value})')
         print(
             f'Net worth: {self.net_worth} (Max net worth: {self.max_net_worth})')
+        print(f'Total commission cost: {self.total_commission_cost}')
         print(f'Profit: {profit}')
         return profit
-        
