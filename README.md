@@ -10,7 +10,7 @@ Stock market is an important part of the modern-day economy in terms of spending
 | Official Full Name | Email (Optional) |
 | :-----| :-----|
 | Dai Yirui | e0384798@u.nus.edu |
-| DONG MEIRONG | e0384977@u.nus.edu |
+| Dong  Meirong | e0384977@u.nus.edu |
 | Guo Feng | e0384804@u.nus.edu |
 | Li Duo| e0384995@u.nus.edu |
 | Lu Jiahao | e0384293@u.nus.edu|
